@@ -515,3 +515,19 @@ body {
         top: 40%;
     }
 }
+
+@media screen and (max-width:580px){
+    .navbar li{
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width:740px){
+    .navbar ul{
+        margin-right: 5%;
+    }
+    .navbar li{
+        /* padding-right: 30px; */
+        margin-right: 15px;
+    }
+}
